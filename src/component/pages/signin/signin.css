@@ -1,0 +1,95 @@
+.parent1 {
+    width: 25vw;
+    height: 50vh;
+    margin: auto;
+    margin-top: 10%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3em;
+    text-align: left;
+}
+
+.signinChild1 {
+    /* margin-top: 3em; */
+    text-align: center;
+    /* position: relative; */
+    /* bottom: 20px; */
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-content: center;
+}
+
+.signinChild2 {
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.signinChild3 {
+    /* border: 1px solid red; */
+    text-align: left;
+}
+
+.signinChild4 {
+    /* border: 1px solid red; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    position: relative;
+    top: 20px;
+}
+
+.logo {
+    height: 50px;
+    width: 100px;
+}
+
+.signin-text {
+    color: #202124;
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-size: 24px;
+}
+
+.label-text {
+    color: gray;
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-size: 15px;
+}
+
+.email-length {
+    width: 24vw;
+}
+
+@media screen and (min-width: 320px) and (max-width: 767px) {
+    .parent {
+        height: 100vh;
+        width: 100vw;
+        border: none;
+        text-align: left;
+        margin: 0%;
+        padding: 0;
+        padding-left: 20px;
+        padding-right: 20px;
+        justify-content: flex-start;
+        /* align-items: flex-start; */
+        gap: 20px;
+    }
+    .email-length {
+        width: 100vw;
+    }
+    .child4 {
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+    .parent {
+        width: 50vw;
+    }
+    .email-length {
+        width: 100%;
+    }
+}

@@ -1,0 +1,142 @@
+.parent {
+    width: 50vw;
+    height: 70vh;
+    margin: auto;
+    margin-top: 7%;
+    border: 1px solid rgb(196, 192, 192);
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    justify-content: center;
+    gap: 100px;
+    padding: 1em
+}
+
+.child1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    gap: 20px;
+}
+
+.child2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    right: 75px;
+    bottom: 25px;
+}
+
+.App-logo {
+    /* border: 1px solid red; */
+    height: 3.5em;
+    width: 6.5em;
+    position: relative;
+    right: 0.7em;
+}
+
+.intro {
+    /* width: 100%; */
+    /* border: 1px solid red; */
+    /* text-align: left; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: initial; */
+    gap: 10px;
+}
+
+.create-text {
+    width: fit-content;
+    /* border: 1rem solid red; */
+    color: #202124;
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+    font-size: 24px;
+    position: relative;
+    bottom: 1em;
+    /* left: 1em; */
+}
+
+.two-field {
+    width: 26vw;
+    margin-right: 20%;
+    /* border: 1rem solid red; */
+    display: flex;
+    gap: 3px;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.MuiTextField-root {
+    width: 11vw;
+    height: 7vh;
+}
+
+.email-button {
+    position: relative;
+    right: 14px;
+}
+
+.email-length {
+    width: 22vw;
+}
+
+.checkbox {
+    margin-right: 13em;
+    font-size: medium;
+}
+
+.two-button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    gap: 140px;
+    position: relative;
+    top: 50px;
+}
+
+.account-img {
+    width: 15vw;
+}
+
+.textfield {
+    font-family: 'Google Sans', 'Noto Sans Myanmar UI', arial, sans-serif;
+}
+
+.label-text {
+    width: 15vw;
+    /* border: 1px solid red; */
+    color: #202124;
+    font-family: roboto, 'Noto Sans Myanmar UI', arial, sans-serif;
+}
+
+@media screen and (min-width=769px) and (max-width=1024px) {
+    .child2 {
+        display: none;
+    }
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+    .parent {
+        height: 100vh;
+        width: 100vw;
+        border: none;
+        text-align: left;
+    }
+    .child2 {
+        display: none;
+    }
+    .two-field {
+        flex-direction: column;
+    }
+    .checkbox {
+        font-size: medium;
+    }
+    .email-length {
+        width: 80vw;
+    }
+    .textfield {
+        width: 80vw !important;
+    }
+}

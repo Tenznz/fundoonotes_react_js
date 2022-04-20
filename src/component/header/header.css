@@ -1,0 +1,127 @@
+/* * {
+    padding: 0;
+    margin: 0
+}
+
+.header {
+    width: 100vw;
+    height: 8vh;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.box1 {
+    height: 40px;
+    width: 140px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.box2 {
+    height: 80%;
+    width: 50%;
+}
+
+.box3 {
+    width: 140px;
+    height: 40px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.box4 {
+    height: 40px;
+    width: 100px;
+    margin-right: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+button {
+    background-color: white;
+    border: 1px solid white;
+    cursor: pointer;
+}
+
+.header-font {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 2rem;
+    color: grey;
+    position: relative;
+    bottom: 20px;
+    left: 40px;
+}
+
+.img-note1 {
+    position: relative;
+    top: 20px;
+    right: 10px;
+}
+
+img {
+    width: 30px;
+    height: 30px;
+}
+
+.search-text {
+    width: 100%;
+    height: 20px;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.submitButton:hover {
+    background: #868685;
+    color: white;
+}
+
+.take-note {
+    width: 40%;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    top: 20px;
+    left: 400px;
+}
+
+.field-button1 {
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    right: 125px;
+    top: 6px;
+    height: 30px;
+}
+
+.field-button2 {
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    right: 75px;
+    top: 6px;
+    height: 30px;
+}
+
+.field-button3 {
+    position: absolute;
+    top: 10px;
+    border-radius: 5px;
+    right: 25px;
+    top: 6px;
+    height: 30px;
+} */
